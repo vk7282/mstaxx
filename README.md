@@ -36,4 +36,4 @@ you can enable the coverage and see it in the current directory after running th
 
 `nose2 -v --with-coverage --coverage-config .coveragerc --coverage-report html app.tests`
 
-**NOTE** - You can always exclude the folder in the file `.coveragerc` for the coverage consideration.
+**NOTE** - You can always exclude the folder in the file `.coveragerc` for the coverage consideration. Make sure if virtual environment is created inside the project folder, then exclude the directory in `omit` section of the `.coveragerc` file.
